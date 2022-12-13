@@ -2,10 +2,10 @@
   "name": "quiz-app",
   "version": "1.0.0",
   "description": "A web based app which will help in testing your knowledge.",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
