@@ -1,0 +1,231 @@
+footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #111;
+  height: auto;
+  width: 100%;
+  font-family: "Open Sans";
+  padding-top: 40px;
+  color: #fff;
+}
+
+/*================================ New Footer Code =====================================*/
+.footer__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.left__footer {
+  padding: 1.5rem;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
+}
+
+.footer__heading {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  width: auto;
+}
+
+.footer__icons {
+  height: 40px;
+  width: auto;
+}
+
+.footer__icon {
+  height: 50px;
+  width: 50px;
+  /* border: 2px solid whitesmoke; */
+  border-radius: 50%;
+  margin-left: 30px;
+  cursor: pointer;
+  background-color: whitesmoke;
+}
+
+a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a > .icon {
+  font-size: 25px;
+  margin-left: 12px;
+  color: black;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.google,
+.fa-google:hover {
+  color: red;
+}
+
+.linkedin,
+.fa-linkedin:hover {
+  color: rgb(56, 206, 244);
+}
+
+.twitter,
+.fa-twitter:hover {
+  color: rgb(12, 167, 206);
+}
+
+.envelope,
+.fa-envelope:hover {
+  color: rgb(244, 93, 93);
+}
+
+.footer__icons > div {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+/* Right Side */
+.right__footer {
+  width: 20%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.copyright div a {
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.privacy__policy {
+  margin-top: 1rem;
+  text-align: right;
+}
+
+/* Media Query */
+@media only screen and (max-width: 600px) {
+  .footer__container {
+    display: flex;
+    flex-direction: column;
+    margin-top: -3rem;
+  }
+
+  .left__footer {
+    /* padding: 1.5rem; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: space-evenly; */
+  }
+
+  .footer__heading {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  .footer__icons {
+    height: 20px;
+    margin-top: 1.5rem;
+  }
+
+  .footer__icon {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 20px;
+    cursor: pointer;
+    background-color: whitesmoke;
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  a > .icon {
+    font-size: 18px;
+    margin-left: 6px;
+    color: black;
+  }
+
+  .icon {
+    cursor: pointer;
+  }
+
+  .google,
+  .fa-google:hover {
+    color: red;
+  }
+
+  .linkedin,
+  .fa-linkedin:hover {
+    color: rgb(56, 206, 244);
+  }
+
+  .twitter,
+  .fa-twitter:hover {
+    color: rgb(12, 167, 206);
+  }
+
+  .envelope,
+  .fa-envelope:hover {
+    color: rgb(244, 93, 93);
+  }
+
+  .footer__icons > div {
+    display: inline-flex;
+    justify-content: space-between;
+  }
+
+  /* Right Side */
+  .right__footer {
+    width: 85%;
+    margin-bottom: 1.5rem;
+  }
+
+  .copyright {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .copyright div a {
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+}
+
+/*================================ Footer Code End Here =====================================*/
+.footer-bottom {
+  background: #000;
+  width: 98.7vw;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: -4vh;
+}
+.footer-bottom p {
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+.footer-bottom span {
+  text-transform: uppercase;
+  opacity: 0.4;
+  font-weight: 200;
+}
